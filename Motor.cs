@@ -2,7 +2,7 @@
 {
     private string _motor;
 
-    public string MOTOR
+    public string command
     {
         get { return _motor; }
         set

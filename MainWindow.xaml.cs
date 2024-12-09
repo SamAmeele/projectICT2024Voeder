@@ -86,12 +86,12 @@ namespace project
 
                 lbl1.Content = "...";  // Hier kun je de bijbehorende actie of bericht tonen
 
-                motor1.MOTOR = mtr; // Zet de waarde van mtr in de MOTOR property
+                motor1.command = mtr; // Zet de waarde van mtr in de MOTOR property
 
                 // Verstuur de waarde naar de seriële poort
                 if (_serialPort != null && _serialPort.IsOpen)
                 {
-                    _serialPort.WriteLine(motor1.MOTOR);
+                    _serialPort.WriteLine(motor1.command);
                 }
                 else
                 {
