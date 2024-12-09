@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:project"
         mc:Ignorable="d"
-                Title="Project voeder automaat" SizeToContent="Height" Width="1850" FontSize="24" ResizeMode="NoResize"
+                Title="Project voeder automaat" SizeToContent="Height" Width="1750" FontSize="24" ResizeMode="NoResize"
         Closing="Window_Closing">
     <StackPanel Margin="10">
-        <GroupBox Header="Select COM-port">
+        <GroupBox Header="selecteer een COM-port">
             <ComboBox Name="cbxComPorts" Margin="10"
                       SelectionChanged="cbxComPorts_SelectionChanged"></ComboBox>
         </GroupBox>
-        <GroupBox Header="Received data">
+        <GroupBox Header="Ontvangen data">
             <Label Name="lblReceivedData" Margin="10">...</Label>
         </GroupBox>
         <GroupBox>
