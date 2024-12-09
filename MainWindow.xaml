@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:project"
         mc:Ignorable="d"
-                Title="Demo COM-port 4" SizeToContent="Height" Width="1850" FontSize="24" ResizeMode="NoResize"
+                Title="Project voeder automaat" SizeToContent="Height" Width="1850" FontSize="24" ResizeMode="NoResize"
         Closing="Window_Closing">
     <StackPanel Margin="10">
         <GroupBox Header="Select COM-port">

@@ -10,7 +10,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Demo_COM_port_4
+namespace project
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
